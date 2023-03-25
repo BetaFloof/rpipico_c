@@ -5,7 +5,8 @@ How to build the projects:
 ````shell
 # Choose a dir
 cd ./blink
-# move to ./build
+# make and move to ./build
+mkdir build
 cd ./build
 # Set env Variable PICO_SDK_PATH to the pico-sdk location
 export PICO_SDK_PATH=/path/to/pico-sdk
